@@ -1,0 +1,500 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    padding-top: 5rem;
+    background: #fff;
+}
+
+:root{
+
+    --tittle-color: #333333;
+    --text-color: #4F4F4F;
+    --button-color: #2D9CDB;
+    --menu-mobile-color: #ffffff;
+    --input-text-color: #BDBDBD;
+    --span-color: #828282;
+    --footer-color: #100E1D;
+
+    --text-mobile-size: 0.75rem;
+    --banner-text-size: 0.75rem;
+    --tittle-mobile-size: 1.75rem;
+
+    --logo-size: 1.75rem;
+    --logo-font: 'Heebo', sans-serif;
+    --text-font: 'Poppins', sans-serif;
+}
+
+/******estilos de la cabecera*********/
+
+.header{
+   background: #fdfdfd;
+   width: 100%;
+   height: 3rem;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 998;
+   box-shadow: 0px 0px 14px 1px black;
+}
+
+.navegator-container{
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container{
+    
+    position: absolute;
+    top: 0;
+    left: 0.5rem;
+    padding: 0.5rem;
+}
+
+.logo{
+    font-size: var(--logo-size);
+    color: var(--tittle-color);
+    font-family: var(--logo-font);
+    font-weight: 800;
+    
+}
+
+.nav-link-logo{
+    text-decoration: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+
+
+/********estilos para el banner**********/
+
+.banner{
+    margin-top: 3rem;
+  
+ 
+}
+
+
+.banner-title-container h4{
+    
+    margin: 0 1.2rem;
+    color: var(--button-color);
+    font-family: var(--text-font);
+    font-size: var(--banner-text-size);
+}
+
+.banner-title-container h1{
+    
+    font-size: var(--tittle-mobile-size);
+    font-family: var(--text-font);
+    color: var(--tittle-color);
+}
+
+.banner-tittle{
+ 
+    width: 95vw;
+    padding: 1rem;
+}
+
+.banner-img{
+    width: 100%;
+    border-radius: 10px;    
+}
+
+.banner-subtittle-container{
+
+    margin: 2rem 0;
+    padding: 1rem;
+    width: 100%;
+    height: 60vh;
+}
+
+.banner-subtitle{
+    width: 70vw;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-family: var(--text-font);
+    color: var(--tittle-color);
+    font-size: var(--tittle-mobile-size);
+    font-weight: 800;
+}
+
+.banner-text-container{
+  
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 1rem;
+    
+}
+
+.banner-text{
+    margin-bottom: 1rem;
+    font-family: var(--text-font);
+    font-size: 3.5vw;
+    color: var(--text-color);
+}
+.banner-span{
+   
+    font-family: var(--text-font);
+    font-size: 0.6rem;
+    color:var(--span-color) ;
+
+}
+
+.input-container{
+    
+    margin-top: 1rem;
+}
+
+#email{
+    width: 60vw;
+    height: 2rem;
+    border: none;
+    padding: 1rem;
+    font-family: var(--text-font);
+    color: var(--input-text-color);
+}
+
+#button-input{
+    border: none;
+    background: var(--button-color);
+    width: 4rem;
+    height: 2rem;
+    color: #fff;
+    font-family: var(--text-font);
+    border-radius: 10px;
+    margin-right: 1rem;
+
+}
+
+#button-input:hover{
+    background: #fff;
+    color: var(--button-color);
+    transition: all 0.5s;
+}
+
+/*******estilos para servicios*******/
+.services-container{
+ 
+    padding: 1rem;
+    height: auto;
+}
+
+.services-tittle{
+    
+    margin-bottom: 6rem;
+    font-family: var(--text-font);
+    color: var(--tittle-color);
+    font-size: var(--tittle-mobile-size);
+}
+
+.card{
+    margin-bottom: 8rem;
+}
+
+.svg{
+
+   width: 10vw;
+   filter: invert(100%);
+ 
+}
+
+
+
+.services-container h4{
+    
+    font-size: 1.5rem;
+    font-family: var(--text-font);
+    color: var(--tittle-color);
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    
+}
+
+.services-container p{
+    
+    font-size: 1rem;
+    font-family: var(--text-font);
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+
+.services-container input{
+    
+    width: 28vw;
+    height: 2.5rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 15px;
+    background: #E0E0E0;
+    color: #828282;
+    font-family: var(--text-font);
+    text-align: center;
+    line-height: 15px;
+    
+}
+
+.services-container input:hover{
+    background: var(--button-color);
+    transition: all 0.5s;
+    color: #fff;
+}
+
+.desing-logo-container{
+
+    background: #2D9CDB;
+    width: max-content;
+    padding: 0.8rem;
+    border-radius: 20px;
+    margin-bottom: 2rem;
+
+
+}
+.front-end-logo-container{
+    
+    background: #27AE60;
+    width: max-content;
+    padding: 0.8rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    
+}
+
+.back-end-logo-container{
+    background: #EB5757;
+    width: max-content;
+    padding: 0.8rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+/**********estilos para los trabajos************/
+
+.woks-img-container{
+    padding: 0 0.5rem;
+}
+
+.woks-img-container img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.woks-img-container span{
+    font-family: var(--text-font);
+    font-size: 0.75rem;
+    color:  #828282;
+    margin-bottom: 1rem;
+}
+
+.woks-img-container h4{
+
+    font-family: var(--text-font);
+    color: var(--tittle-color);
+    font-weight: 800;
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+#works{
+
+    margin-bottom: 10rem;
+    
+
+}
+
+/*******estilos cliente********/
+
+.client-tittle{
+    width: 70vw;
+    margin-bottom: 1rem;
+    font-family: var(--text-font);
+    font-size: var(--tittle-mobile-size);
+    color: var(--tittle-color);
+}
+
+.client-tittle-container p{
+
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-size: 1rem;
+   
+}
+
+.client-img-container img{
+    max-width: 40vw;
+    border-radius: 25px;
+    margin: 00.5rem;
+}
+
+.client-container{
+    
+    position: relative;
+    height: 100vh;
+    margin-bottom: 3rem;
+}
+
+
+.card-one{
+    
+    width: max-content;
+    position: absolute;
+    top: 38vh;
+    left: 45vw;
+}
+
+.card-two{
+    
+    width: max-content;
+    position: absolute;
+    top: 63vh;
+    left: 45vw;
+}
+
+
+.card-three{
+    
+    width: max-content;
+    position: absolute;
+    top: 50vh;
+    
+}
+
+/*********estilos contacto*********/
+
+.contact-container{
+    
+    padding: 0.5rem;
+    height: auto;
+}
+
+.text-container p{
+    font-family: var(--text-font);
+    font-size: 1.4rem;
+    color: var(--tittle-color);
+    font-weight: 800;
+}
+
+.info-contact-container{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.info-contact-container img{
+    max-width: 30vw;
+    margin: 1rem;
+    border-radius: 20px;
+    
+}
+
+
+.text-contact-container h4{
+    
+    font-family: var(--text-font);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--tittle-color);
+}
+
+.text-contact-container span{
+    
+    font-family: var(--text-font);
+    color: var(--text-color);
+    font-size: 0.8rem;
+}
+
+
+/********estilos para el footer**************/
+
+
+
+#footer{
+    background: var(--footer-color); 
+    padding: 2rem;
+    height: 96vh;
+    margin-top: 6rem;
+}
+
+.menu-footer{
+    
+   margin-bottom: 2rem;
+}
+
+
+.nav-footer{
+  
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.nav-footer-items{
+    margin-bottom:1rem;
+
+}
+
+.nav-footet-link{
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--text-font);
+    font-size: 1rem;
+}
+
+.nav-footet-link:hover{
+    border-bottom: 2px solid #fff;
+    transition: all 0.5s;
+}
+
+.redes-footer h2{
+
+    color: #fff;
+    font-family: var(--text-font);
+    font-size: var(--tittle-mobile-size);
+    margin-bottom: 1rem;
+}
+
+.redes-img img{
+    margin-right: 0.5rem;
+    width: 8vw;
+}
+
+.redes-img{
+    margin-bottom: 4rem;
+    
+}
+
+.input-footer span{
+    color: #fff;
+    font-family: var(--text-font);
+}
+
+.copy{
+
+    
+    width: max-content;
+    margin:  auto;
+    margin-top: 8rem;
+    color: #fff;
+    font-family: var(--text-font);
+ 
+}
+
+.copy a{
+
+    text-decoration: none;
+    color: #fff;
+}
